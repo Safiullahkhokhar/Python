@@ -1,0 +1,22 @@
+a = "1" 
+b = "2"
+print(a+b) # adding 2 string and its op is 12
+
+#Explicit typecasting
+a = "1"
+b = "2"
+print(int(a)+ int(b)) #Typecasting str into int and its op is 3 
+
+#implicit typecasting
+c = 1.9
+d = 3
+print (c+d)# float into int automaticlly and its op is 4.9
+
+
+string = "15" #str data type 
+number = 7    #int data type
+string_number = int(string) # Explicit Typecasting str to int 
+sum = number + string_number # adding the value 
+print("The Sum of both the numbers is: ", sum) # out is 22
+
+

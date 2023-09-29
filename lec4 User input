@@ -1,0 +1,42 @@
+# # taking user input and it will store in a variable we can also pass string in input() function
+# a= input("My name is ")
+# print(a)
+
+# that is not added 2 numbers it only concate two inputs 
+# b=input("Enter first input:") 
+# c=input("Enter second input:")
+# print(b+c) 
+
+# using typecasting str into int we can add two numbers
+
+# print(int(b)+ int(c)) 
+
+# first_number = input("Enter 1st number : ") 
+# second_number = input("Enter 2nd number : ") 
+# sum = float(first_number) + float(second_number)
+# print("the sum is : " + str(sum))
+
+#taking user input calculator 
+ip= input("Enter 1st number: ")
+ip2= input("Enter 2nd number: ")
+
+ip= int(ip)
+ip2= int(ip2)
+
+print("~~~~~Choise any operation ( + - / * % )~~~~~")
+operation=input("Enter opration: ")
+
+if operation == "+":
+    print(ip + ip2)
+elif operation == "-":
+    print( ip - ip2)
+elif operation == "/":
+    print( ip / ip2)
+elif operation == "*":
+    print(ip * ip2)
+elif operation == "%":
+    print(ip % ip2)
+else:
+    print("Invaild command")
+
+
