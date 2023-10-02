@@ -26,14 +26,14 @@ else:
 
 # elif condition
 num= int(input("Enter the value of number: "))
-# if(num == 0):
-#     print("Your number zero")
-# elif(num == 999):
-#     print("special number")
-# elif(num % 2 == 0):
-#     print("Positive number")
-# else:
-#     print("Negative number")
+if(num == 0):
+    print("Your number zero")
+elif(num == 999):
+    print("special number")
+elif(num % 2 == 0):
+    print("Positive number")
+else:
+    print("Negative number")
 
 # Nested condition
 if(num == 0):
@@ -45,3 +45,7 @@ elif(num > 0):
         print("Odd number")
 else:
     print("Negative number")
+
+
+
+
