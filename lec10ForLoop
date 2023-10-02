@@ -1,0 +1,23 @@
+name = "Python"
+for x in name:  # print python 
+    print(x)
+
+for y in name:  # before char is , and space also print on 1 line
+    print(y, end=", ")
+
+for a in range(10): # 0 to 9 numbers print
+    print(a)
+
+for b in range(10,21):
+    print(b, end=" ")
+
+for c in range(20,30,2): # start from 20 and end on 28 but escip 2 digits  
+    print(c)
+
+color = ["Red", "Blue", "Black"]
+for b in color:
+    print(b, end=", ") #use loop for list
+
+for z in range(11):
+    if (z % 2 == 0): # Even numbers print 
+        print(z)
