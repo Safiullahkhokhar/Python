@@ -1,0 +1,59 @@
+#Function
+def name(Fname, Lname):
+    print("Hello", Fname, Lname)
+name("Safiullah","Khokhar")#outside function and calling the name funtion
+
+#add 2 numbers
+def addingNum(a,b):
+    sum = a+b
+    print("The sum of 2 numbers is:",sum)
+addingNum(10,5)
+
+#complete it later 
+def isLater(a,b):
+    pass
+
+#function arguments
+#default function arguments
+def name(fname,mname="safi", lname="khan"):
+    print("hello",fname,mname,lname)
+name("safi")
+
+#keyword arguments
+#interprete recognizes the argumentsby the parameters name
+def name2(fname,mname,lname):
+    print("hi", fname,mname,lname)
+name2(mname="khan", lname="safi",fname="Safi")#order of argument does not matter
+
+#Required argument
+def name3(fn,mn,ln):
+    print("hello", fn,mn,ln)
+#name3("safi","khokhar")# missing 1 required positional argument
+name3("safi","khan","khokhar")
+
+#variable lenght arguments
+#Need to pass more arguments those defined in the actual function
+
+# 2 ways to achieve it 
+# 1. Arbitrary  Argument
+# 2. Keyword Arbitrary Argument
+
+# 1. Arbitrary  Argument pass * before the parameter name while defining the function
+# Fun access the arguments by processing in the form of tuple
+
+def name4(*name4):
+    print(name4[0], name4[1],name4[2])
+name4("Safi","Khokhar","Khan")
+
+# 2. Keyword Arbitrary Argument pass ** before the parameter name while defining the function
+# Fun access the arguments by processing in the form of dictionary
+
+def average(*number):
+#    print(type(number)) #tuple type
+    sum = 0
+    for i in number:
+        sum = sum +i
+#    return 7 output is 7
+    return sum /len(number) # only 1st return execute others ignor
+c=average(5,6,7,1)
+print(c)
