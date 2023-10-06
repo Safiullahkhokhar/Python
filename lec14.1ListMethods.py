@@ -19,6 +19,7 @@ l.remove(10)
 print("Remove the item:",l) #remove item present at the given index "10"
 
 l1=["Python","C#","C++","Java"]
+
 l.extend(l1)    # add all item of an "l1"2nd list to the end of "l" 1st list 
 print("Extend/merge 2 list:",l)
 
@@ -38,7 +39,7 @@ returnind=l1.index("C++")  #return the index of the 1st match item
 print("Index return:",returnind ,"C++ index is [1]")
 
 popvar=l1.pop(3)
-print("Pop item:",popvar ,"puthon index is [3]")
+print("Pop item:",popvar ,"python index is [3]")
 
 l.clear()   #clear the item from the list
 print("Clear the list:",l)
