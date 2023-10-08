@@ -30,7 +30,7 @@ print("Remove item: ",mixedset)
 print("length of a set:",len(mixedset))
 
 
-#Oprations
+#Oprations and some methods 
 
 # union of 2 sets
 a={1,3,5,7,9}
