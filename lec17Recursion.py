@@ -30,3 +30,25 @@ print(sys.getrecursionlimit()) # the resursion limit is 1000
 sys.setrecursionlimit(2000)
 print(sys.getrecursionlimit()) #2000
 
+
+#Fibonacci numbers
+
+def fibo(n):
+    a = 0
+    b = 1
+    # print(a)
+    # print(b)
+
+
+    if n == 1:
+        print(a)
+    else:
+        print(a)
+        print(b)
+
+    for i in range(2,n):
+        c= a + b
+        a=b
+        b=c
+        print(c)
+fibo(10)
