@@ -17,3 +17,16 @@ print('This is factorial of', num, 'is', Factorial(num))
 # 3 * 2                 # return from 2nd call
 # 6                     # return from 1st call
 
+
+#Resursion limit
+import sys  # import sys 
+
+def numbers():
+    print(numbers)
+    numbers()   
+print(sys.getrecursionlimit()) # the resursion limit is 1000
+
+#increse resursion limit 
+sys.setrecursionlimit(2000)
+print(sys.getrecursionlimit()) #2000
+
