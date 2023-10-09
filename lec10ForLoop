@@ -21,3 +21,26 @@ for b in color:
 for z in range(11):
     if (z % 2 == 0): # Even numbers print 
         print(z)
+
+#for loop for with else
+
+for i in range(5):
+    print(i)
+    if i ==4:
+        break
+else:
+    print("Sorry I is not avialable")
+i=0
+while i <7:
+    print(i)
+    i=i+1
+    if i==7:
+        break
+else:
+    print("sorry no I")
+
+for i in range(5):
+    print("Iteration no. is {} in for loop".format(i+1))
+else:
+    print("Else block is in loop")
+print("Out of loop")
