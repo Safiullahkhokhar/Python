@@ -23,10 +23,10 @@ print(dic.get("Safiullah"))
 
 # Valid dictionary
 my_dict = {
-  2112121: "Safiullah",
-  2112124:"Sarfarz", 
-  (1, 2): "Hello Hi", 
-  3: [1, 2, 3]
+    2112121: "Safiullah",
+    2112124:"Sarfarz", 
+    (1, 2): "Hello Hi", 
+    3: [1, 2, 3]
 }
 print(my_dict)
 print(my_dict[2112121])
@@ -66,3 +66,33 @@ print('Change item:',dic)
 #Remove dic item
 del dic['Pakistan'] 
 print('Remove item',dic)
+
+#methods 
+print("Methods use in Dictionary")
+
+#.update() updates the value of key provided to it if the item already exists in the dictionary, else it creates a new key-value pair.
+dic.update({'Age':19})
+print("Update items:",dic)
+
+#.pop() Remove the key-value pair whose key is pass as a parameter
+dic.pop('Tiger')
+print("Pop items:",dic)
+
+#.popitem() Remove the last key-value pair from the dictionary
+dic.popitem()
+print("Popitems :",dic)
+
+#.values() access all the values
+print("Values :",dic.values())
+
+#.keys() access all the key
+print("Keys :",dic.keys())
+
+#.get() access item from dic
+print("Get item :",dic.get("Safiullah"))
+
+#.copy() Duplicate of a dictionary
+print("Copy item :",dic.copy())
+
+#.clear() Remove all the items
+print("Clear items :",dic.clear())
