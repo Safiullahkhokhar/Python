@@ -52,3 +52,15 @@ else:
     print("Integer Accpected")
 finally:
     print("This block os always executed")
+
+# raise custom errors by using the raise keyword
+# we can define custom exceptions by creating a new class that is derived from the built-in Exception class
+# we may need to create our own custom exceptions that serve our purpose
+
+salary = int(input("Enter  your salary amount: "))
+if not 2000 < salary < 5000:
+    raise("Not a vaild salary")
+
+x= 'hello'
+if not type(x) is int:
+    raise TypeError('Only integers are allowed')
