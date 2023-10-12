@@ -47,5 +47,19 @@ else:
     print("Negative number")
 
 
+# Short hand statement   if-else in one line
 
+a= 300
+b= 400
+print('a') if a>b else print('b')
+print('A') if a > b else print('=') if a == b else print("B")
+# 1. print('A') if a > b
+# 2. else print('=') if a == b if 1 and 2 is false than print 3
+# 3. else print("B") the output is B
 
+# Syntex
+# result = value_if_true if condition else value_if_false
+
+print(9) if a>b else""
+c= 9 if a > b else 0
+print(c)
