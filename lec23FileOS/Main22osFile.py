@@ -65,8 +65,16 @@
 
 # If you want to add newlines between the strings, 
 # you can use a loop to write each string separately
-f = open('myfile2.txt', 'w') # if file is not aviable than create a new file
-lines = ['line1\n','line2\n','line3\n','line4\n'] # in file print lines 1 to 4
-for line in lines:
-        f.write(line + '\n')
-f.close()
+
+# f = open('myfile2.txt', 'w') # if file is not aviable than create a new file
+# lines = ['line1\n','line2\n','line3\n','line4\n'] # in file print lines 1 to 4
+# for line in lines:
+#         f.write(line + '\n')
+# f.close()
+
+# seek() function
+
+f= open('myfile2.txt','r')
+f.seek(16)
+data = f.read(9)
+print(data)
