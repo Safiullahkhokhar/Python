@@ -12,7 +12,7 @@ print(avg(3,1))
 print(cube(2))
 
 # can we call a function into fuction ?
-
+# the answer is yes so how ,
 def appl(fx,value):
     return 6+ fx(value)
 # print(appl(cube, 2))

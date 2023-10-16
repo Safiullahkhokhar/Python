@@ -71,10 +71,3 @@
 # for line in lines:
 #         f.write(line + '\n')
 # f.close()
-
-# seek() function
-
-f= open('myfile2.txt','r')
-f.seek(16)
-data = f.read(9)
-print(data)
