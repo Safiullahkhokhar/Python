@@ -39,3 +39,34 @@ code that can work with multiple types of objects.
 In summary, OOP in Python allows developers to model real-world concepts and entities
 using classes and objects, encapsulate data, reuse code through inheritance, and
  write more flexible code through polymorphism.
+
+ inheritance
+
+ When a class derives from another class. The child class will inherit 
+ all the public and protected properties and methods from the parent class.
+Derived class inherits features from the base class where new features can be added to it. This results in re-usability of code.
+
+Types of inheritance
+1. Single inheritance
+2. Multiple inheritance
+3. Multilevel inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+1. Single inheritance
+When one parent and one child class enabling code reusability and the addition of new features to existing code.
+
+2. Multiple
+When  child class derived from more than one parent class.
+ In multiple inheritances, all the features of the base classes are inherited into the derived class.
+
+3. Multilevel
+Features of the base class and the derived class are further inherited into the new derived class. This is similar to a relationship representing a child and a grandfather.
+
+4. Hierarchical
+When more than one derived class are created from a single base class
+
+5. Hybrid
+Inheritance consisting of multiple types of inheritance is called hybrid inheritance.
+like as:
+A school in which student learn 
